@@ -9,6 +9,7 @@ body {
     outline: 1px solid yellow;
     
 }
+
 .header {
     background-color: #2d303a;
     height: 90px;
@@ -16,7 +17,7 @@ body {
 }
 
 .nav {
-    width: 950px; 
+    max-width: 950px; 
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -26,10 +27,51 @@ body {
 .links {
     float: right;
     color: #44495b;
-
+    padding-top:35px;
 }
 
 .links a{
     color: white;
     text-decoration: none;
+    font-size:0.75em;
+    padding-left:10px;
+    padding-right: 10px;
 }
+
+.salmon {
+    color: #f06c64;
+
+}
+
+.logo {
+    float: left;
+    margin-top: 28px;
+    font-size: 1.35em;
+    
+}
+
+
+.banner {
+    padding: 20px 0;
+    background-color: #f06c64;
+    text-align: center;
+  
+}
+
+.banner img{
+    width:80%;
+    max-width: 950px;
+}
+
+/*media query always bottom of css*/
+ 
+@media screen and (max-width: 550px) {
+   
+    .links {
+        padding-top: 8px;
+    }
+       
+     
+        
+    }
+    
