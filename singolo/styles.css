@@ -63,6 +63,48 @@ body {
     max-width: 950px;
 }
 
+.services{
+      background-color: #f2f2f2;
+     color: #666d89;
+}
+
+.title {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 30px 0 20px 70px;
+    font-weight: bold;
+  
+    
+
+ 
+}
+
+p.services{
+    text-align: left;
+    padding: 0px 70px 30px 70px;
+    font-family: sans-serif;
+    line-height: 2.0;
+  
+}
+
+.list{
+    padding: 10px 70px 30px 70px;
+    text-align: left;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+}
+
+.list p{
+    float:left;
+}
+
+.list img{
+    width: 20%;
+    float: left;
+}
+
 /*media query always bottom of css*/
  
 @media screen and (max-width: 550px) {
@@ -70,6 +112,8 @@ body {
     .links {
         padding-top: 8px;
     }
+    
+ 
        
      
         
