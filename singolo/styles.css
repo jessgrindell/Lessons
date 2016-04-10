@@ -260,12 +260,18 @@ textarea {
     padding: 12px 20px 20px 20px;
     box-sizing: border-box;
     border: 2px solid #d6564f;
-    border-radius: 4px;
+    border-radius: 20px;
     background-color: #d6564f;
     font-size: 16px;
     color: #e67371;
     resize: none;
     float: left;
+    text-align: left;
+}
+
+.footer{
+    font-size:0.5em;
+    background-color: #2d303a;
 }
 
 
