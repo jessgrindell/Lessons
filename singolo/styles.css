@@ -64,14 +64,18 @@ body {
 }
 
 .services{
-      background-color: #f2f2f2;
-     color: #666d89;
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding: 50px 0px 50px 0px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
     text-align: left;
-    font-size: 1.2em;
-    padding: 30px 0 20px 70px;
+    font-size: 2em;
+    padding: 30px 0 20px 35px;
     font-weight: bold;
   
     
@@ -81,29 +85,191 @@ body {
 
 p.services{
     text-align: left;
-    padding: 0px 70px 30px 70px;
+    padding: 0px 35px 10px 35px;
     font-family: sans-serif;
     line-height: 2.0;
+    font-size: 1.1em
   
 }
 
-.list{
-    padding: 10px 70px 30px 70px;
-    text-align: left;
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
 
+.list{
+
+    padding: 0px 35px 30px 35px;
+    text-align: left;
+}
+
+
+.list h2{
+    
+    padding-top: 10px;
 }
 
 .list p{
-    float:left;
+    text-align: left;
+    line-height: 2.0;
 }
 
 .list img{
     width: 20%;
     float: left;
+    padding: 10px 0px 110px 0px;
 }
+
+.list{
+     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+
+
+.portfolio {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    background-color: #2d303a;
+    color: #666d89;
+    padding: 50px 35px 50px 35px;
+    
+}
+
+.portfolio h1{
+    text-align: left;
+    
+}
+
+.portfolio p{
+    text-align: left;
+}
+.options{
+    text-align:left;
+    
+}
+
+.options a{
+    
+    border-radius: 25px;
+    border: 2px solid #666d89;
+    padding: 1px; 
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: #666d89;
+}
+
+.options a:hover { 
+    color: white;
+}
+
+.portfolio img{
+    
+    text-align:center;
+    width:100%;
+}
+
+.aboutus{
+    padding: 50px 35px 20px 35px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+     max-width: 950px;
+}
+.aboutus h1{
+    text-align: left;
+    color:#666d89;
+    
+}
+
+.aboutus h2{
+    text-align: left;
+}
+
+.aboutus p{
+    text-align:left;
+    color:#666d89;
+    line-height: 1.5;
+    
+}
+
+.aboutus img{
+    width:95%;
+}
+
+.columnone{
+    float: left;
+    width:33%;
+    
+}
+
+.columnone p{
+   font-size: 0.5em;
+
+}
+
+.columntwo{
+    float: left;
+    width: 33%;
+
+}
+
+.columntwo p{
+   font-size: 0.5em;
+
+}
+
+.columnthree{
+    float: left;
+    width: 33%;
+}
+
+.columnthree p{
+   font-size: 0.5em;
+
+}
+ 
+.media{
+    text-align: left;
+    width: 45%;
+}
+
+.quote{
+    padding: 50px 35px 20px 35px;
+    background-color: #f2f2f2;
+    max-width: 950px;
+    background-color: #f06c64;
+    color: #f0d8d9;
+    overflow: hidden;
+
+}
+
+.quote h1{
+    text-align: left;
+    font-weight: normal;
+    
+}
+
+.quote p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+textarea {
+    width: 60%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 12px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #d6564f;
+    border-radius: 4px;
+    background-color: #d6564f;
+    font-size: 16px;
+    color: #e67371;
+    resize: none;
+    float: left;
+}
+
+
+
 
 /*media query always bottom of css*/
  
